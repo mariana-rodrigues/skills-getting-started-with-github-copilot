@@ -86,7 +86,7 @@ section h3 {
 +  color: #333;
 +}
 +.participants ul {
-+  list-style: disc;
++  list-style-type: none; /* Hides bullet points */
 +  margin: 0;
 +  padding-left: 20px;
 +}

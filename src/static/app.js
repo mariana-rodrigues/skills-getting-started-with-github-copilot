@@ -108,6 +108,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Function to delete a participant
+  function deleteParticipant(button) {
+    const participantItem = button.parentElement;
+    participantItem.remove(); // Remove the participant from the list
+    // Additional logic to unregister the participant can be added here
+  }
+
   // Initialize app
   fetchActivities();
 });
