@@ -74,6 +74,34 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* Participants section */
++.participants {
++  margin-top: 12px;
++  padding-top: 10px;
++  border-top: 1px dashed #eee;
++}
++.participants h5 {
++  margin: 0 0 8px 0;
++  font-size: 14px;
++  color: #333;
++}
++.participants ul {
++  list-style-type: none; /* Hides bullet points */
++  margin: 0;
++  padding-left: 20px;
++}
++.participants li {
++  padding: 6px 0;
++  font-size: 14px;
++  color: #444;
++  border-bottom: 1px solid rgba(0,0,0,0.03);
++}
++.participants .no-participants {
++  font-style: italic;
++  color: #666;
++  padding: 6px 0;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
